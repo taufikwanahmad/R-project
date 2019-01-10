@@ -18,3 +18,4 @@ membership<-as.matrix(group)
 
 finalx<-data.frame(membership,crime_data)
 View(finalx)
+##testing 2
