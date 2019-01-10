@@ -7,7 +7,7 @@ summary(crime_data)
 
 normalizedata<-scale(crime_data[,2:5])
 d<-dist(normalizedata,method = "euclidean")
-
+#test tes test
 
 fit<-hclust(d,method = "complete")
 plot(fit)
